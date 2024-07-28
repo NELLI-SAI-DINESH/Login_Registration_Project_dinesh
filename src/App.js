@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+
 import './App.css';
+import RegistrationPage from './components/RegistrationPage';
+import LoginPage from './components/LoginPage';
+import DashboardPage from './components/DashboardPage';
+
+
 
 function App() {
+  //sessionStorage.setItem("isLoggedIn",false)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <NavBar/> */}
+      <Routes>
+        <Route path="/" element={<RegistrationPage/>} />
+        <Route path="/LoginPage" element={<LoginPage/>} />
+        <Route path='/dashBoardPage' element={<DashboardPage/>}/>
+
+      </Routes>
+      
     </div>
   );
 }

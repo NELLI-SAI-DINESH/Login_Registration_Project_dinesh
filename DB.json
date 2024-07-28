@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "Bhargav Seshadri",
+      "address": "gachibowli,hyderabad",
+      "email": "bhargavseshadri12389@gmail.com",
+      "phoneNo": "7013119612",
+      "password": "7013119612",
+      "id": "6"
+    },
+    {
+      "id": "55a0",
+      "name": "Kalyan Babu",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "nellisaidinesh@gmail.com",
+      "phone": "6305532511",
+      "password": "1234567890"
+    },
+    {
+      "id": "fc96",
+      "name": "Surya",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "abc@gmail.com",
+      "phone": "9305532511",
+      "password": "1234567890"
+    },
+    {
+      "id": "7a28",
+      "name": "NELLI SAI DINESH",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "nellisaidinesh@gmail.com",
+      "phone": "06305532511",
+      "password": "123456789023"
+    },
+    {
+      "id": "107f",
+      "name": "tony montana",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "nellisaidinesh@gmail.com",
+      "phone": "06305532511",
+      "password": "12345676543456"
+    },
+    {
+      "id": "b7d7",
+      "name": "tony",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "nellisaidinesh@gmail.com",
+      "phone": "06305532511",
+      "password": "34567895678"
+    },
+    {
+      "id": "f5ed",
+      "name": "DINESH",
+      "address": "BHIMAVARAM",
+      "email": "nellisaidinesh315@gmail.com",
+      "phone": "6305532511",
+      "password": "!@#$%^&*"
+    },
+    {
+      "id": "7a12",
+      "name": "Anbu",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "anbu@gmail.com",
+      "phone": "9491894614",
+      "password": "123456789"
+    }
+  ]
+}
