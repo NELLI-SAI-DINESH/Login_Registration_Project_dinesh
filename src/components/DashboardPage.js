@@ -23,7 +23,7 @@ const DashboardPage = () => {
     return (
         <div style={pageStyle}>
             <div style={messageStyle}>
-                Your login is successful and welcome to the PORTAL
+                Your login is successful and welcome to the STUDENT PORTAL.
             </div>
         </div>
     );

@@ -63,6 +63,14 @@
       "email": "anbu@gmail.com",
       "phone": "9491894614",
       "password": "123456789"
+    },
+    {
+      "id": "5d15",
+      "name": "RAJA",
+      "address": "RAJA",
+      "email": "nelli@gmail.com",
+      "phone": "6305532511",
+      "password": "123456789"
     }
   ]
 }
