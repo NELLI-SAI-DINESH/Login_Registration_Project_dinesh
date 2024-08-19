@@ -48,7 +48,7 @@ const LoginPage = () => {
     return (
         <div className="registration-container">
             <form className="registration-form" onSubmit={handleSubmit}>
-                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>welcome</span>
+                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>Log in</span>
 
                 <label htmlFor='email'>Email Id:</label>
                 <input

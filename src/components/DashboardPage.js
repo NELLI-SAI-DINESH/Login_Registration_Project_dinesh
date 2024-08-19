@@ -1,32 +1,28 @@
-import React from 'react';
+import React from "react";
+import "../css/dashBoard.css"
 
 const DashboardPage = () => {
-    // Inline CSS styles
-    const pageStyle = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-        backgroundColor: '#f0f0f0'
-    };
+    //const navigate = useNavigate();
+    return(
+        <>
+            <div className="dashboard-container">
 
-    const messageStyle = {
-        fontSize: '24px',
-        color: 'black',
-        textAlign: 'center',
-        padding: '20px',
-        borderRadius: '8px',
-        backgroundColor: '#ffffff',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
-    };
+                <h1 className="dashboard-welcomeMsg">Welcome to Dashboard
+                    <h3 className="dashboard-welcomeMsg">
+                        {/* We always provides you an amazing and pleasent STAY
+                        <br/><br/>With your friends and familyat reasonable prices.
+                        <br/><br/>We provide well-designed space with modern amenities.
+                        <br/><br/>you can reserve a room faster with our efficient DINESH STAY app
+                        <br/>Enjoy your stay. */}
+                        You Successfully Logged In
+                    </h3>
+                </h1>
 
-    return (
-        <div style={pageStyle}>
-            <div style={messageStyle}>
-                Your login is successful and welcome to the STUDENT PORTAL.
             </div>
-        </div>
+
+            {/* <button onClick={() => navigate(-1)}> Logout </button> */}
+        </>
     );
-};
+}
 
 export default DashboardPage;

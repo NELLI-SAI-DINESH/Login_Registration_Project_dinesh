@@ -101,7 +101,7 @@ const RegistrationPage = () => {
         <>
         <div className="registration-container">
             <form className="registration-form" onSubmit={handlesubmit}>
-            <h1>Student Registration</h1>
+            <h1>Sign Up</h1>
 
                 <label htmlFor='name'>Name:</label>
                 <input

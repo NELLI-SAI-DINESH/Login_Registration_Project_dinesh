@@ -71,6 +71,22 @@
       "email": "nelli@gmail.com",
       "phone": "6305532511",
       "password": "123456789"
+    },
+    {
+      "id": "be94",
+      "name": "GABBAR SINGH",
+      "address": "INDIA",
+      "email": "gabbar@gmail.com",
+      "phone": "6305532511",
+      "password": "123456789"
+    },
+    {
+      "id": "1cb4",
+      "name": "RAVI TEJA",
+      "address": " RAILWAY STATION ROAD",
+      "email": "ravi@gmail.com",
+      "phone": "9491894614",
+      "password": "123456789"
     }
   ]
 }
